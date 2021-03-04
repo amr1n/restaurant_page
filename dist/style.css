@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.container {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/01.jpg');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+nav {
+
+}
+
+nav a{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 40px;
+	display: inline-block;
+	background:black;
+	margin-left: 20px;
+}
+
+h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 20px 25px;
+	font-size: 20px;
+	background: black;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.content {
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	width: 60%;
+	margin: 0 auto; 
+	padding-top: 8%;
+}
+
+
+
