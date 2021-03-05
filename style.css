@@ -13,22 +13,18 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-}
-
-nav {
-
-}
-
-nav a{
+} 
+ 
+nav li{ 
 	text-align: center;
 	font-size: 25px;
 	color: #fff;
 	text-decoration: none;
-	padding: 10px;
-	margin-bottom: 40px;
+	padding: 10px; 
 	display: inline-block;
 	background:black;
 	margin-left: 20px;
+	cursor: pointer;
 }
 
 h1 {
@@ -53,7 +49,7 @@ button {
 	cursor: pointer;
 	text-transform: uppercase;
 	outline: none;
-}
+}  
 
 .content {
 	text-align: center;
