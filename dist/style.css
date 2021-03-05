@@ -55,23 +55,22 @@ li {
 	text-align: center;
 	color: white;
 	font-family: sans-serif;
-	width: 40%;
+	width: 45%;
 	margin: 0 auto; 
 	padding-top: 2%;
 }
 
 .cards {
 	display: grid;
-	grid-template-columns: repeat(3, 200px);
-	grid-gap: 5 5;
-	justify-content: center;
+	grid-template-columns: repeat(3, 200px); 
+	justify-content: center; 
 }
 
 .card {
 	border: 2px solid #d49d42;
 	margin-bottom: 20px;
-	margin-left: 10px;
-}
+	margin-left: 10px; 
+} 
 
 .menuImg {
 	width: 100%;
@@ -89,5 +88,10 @@ li {
 
 .address p {
 	margin: 0;
+}
+
+.active {
+	color: #d49d42; 
+	background: black;
 }
 
