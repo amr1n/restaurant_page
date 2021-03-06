@@ -9,7 +9,7 @@ function menuContent() {
 		let des = document.createElement("p");
 		img.className = "menuImg";
 		img.src = "/images/03p.jpg";
-		des.textContent = "Lorem ipsum dolor sit amet.";
+		des.textContent = "Lorem ipsum doldor sit amet.";
 
 		card.className = "card";
 
