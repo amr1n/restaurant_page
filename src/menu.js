@@ -8,7 +8,7 @@ function menuContent() {
 		let img = document.createElement("img");
 		let des = document.createElement("p");
 		img.className = "menuImg";
-		img.src = "/images/03p.jpg";
+		img.src = "./images/03p.jpg";
 		des.textContent = "Lorem ipsum doldor sit amet.";
 
 		card.className = "card";

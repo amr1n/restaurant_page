@@ -5,7 +5,7 @@ function contactContent() {
 	let addressInfo = document.createElement("p");
 	let img = document.createElement("img");
 
-	img.src = "/images/map.jpg";
+	img.src = "./images/map.jpg";
 
 	address.className = "address";
 
